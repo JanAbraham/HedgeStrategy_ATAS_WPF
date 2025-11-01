@@ -9,7 +9,7 @@
   </PropertyGroup>
   <Target Name="CopyOutputDll" AfterTargets="Build">
     <PropertyGroup>
-      <OutputDirectory>C:\Users\MetStar\Documents\ATAS\Strategies\</OutputDirectory>
+      <OutputDirectory>C:\Users\jan\AppData\Roaming\ATAS\Strategies\</OutputDirectory>
     </PropertyGroup>
     <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFiles="$(OutputDirectory)$(AssemblyName).dll"></Copy>
   </Target>
@@ -36,6 +36,9 @@
     </Reference>
     <Reference Include="OFT.Localization">
       <HintPath>C:\Program Files (x86)\ATAS Platform\OFT.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="PhantomFlow_FPI">
+      <HintPath>\\Mac\Home\Downloads\FootprintPatterns_Indicator\PhantomFlow_FPI.dll</HintPath>
     </Reference>
     <Reference Include="Utils.Common">
       <HintPath>C:\Program Files (x86)\ATAS Platform\Utils.Common.dll</HintPath>
